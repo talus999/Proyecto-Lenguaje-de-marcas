@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(180deg, rgba(59,49,140,1) 13%, rgba(43,36,101,1) 52%, rgba(24,20,56,1) 100%);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+div h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.2em ;
+    text-align: center;
+    color: rgba(255, 241, 160);
+    background-color: rgba(0, 0, 0, 0.374);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.estilo li {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(0, 0, 0, 0.374);
+    width: 200px;
+    padding: 25px;
+    margin-left: 16%;
+}
+
+.estilo2 li{
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(0, 0, 0, 0.374);
+    width: 200px;
+    padding: 25px;
+    margin-left: 16%;
+}
+
+.columnaTexto {
+    column-fill: balance;
+    column-count: 3;
+    column-width: 200px;
+    text-align: center;
+    column-gap: 5em;
+    column-rule: 2px solid blue;
+    height: 50em;
+}
+
+a{
+    color: rgba(255, 241, 160);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+a:hover{
+    color: rgb(228, 203, 56);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
