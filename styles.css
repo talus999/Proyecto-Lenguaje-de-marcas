@@ -1,53 +1,148 @@
 body{
-    background: linear-gradient(180deg, rgba(59,49,140,1) 13%, rgba(43,36,101,1) 52%, rgba(24,20,56,1) 100%);
-    background-attachment: fixed;
-    background-size: 100%;
+    background: rgb(31, 0, 71);
 }
 
-div h1{
+header{
+    background-color: rgba(102, 102, 102, 0.214)
+}
+
+.divPrincipal{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 0em;
+    padding-top: 0em;
+    color: rgb(16, 195, 226);
+    text-shadow: -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    border: solid rgb(16, 195, 226);
+    border-width: 0em 0em 0.5em 0em;
+}
+
+.divPrincipal>h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3.2em ;
+    font-size: 4.6em;
+}
+
+.divPrincipal>div {
+    padding-left: 3em;
+    padding-right: 2em;
+    height: fit-content;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+}
+
+.divMenu{
+    position: sticky;
+    display: inline-block;
+}
+
+.divMenu-content{
+    display: block;
+    position: absolute;
+    font-size: 3em;
+}
+
+.posicionDiv1{
+    text-align: center
+}
+
+.posicionDiv2{
     text-align: center;
-    color: rgba(255, 241, 160);
-    background-color: rgba(0, 0, 0, 0.374);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid rgb(16, 195, 226);
+    border-width: 0em 0em 0.5em 0em;
 }
-
-.estilo li {
-    display: inline;
+  
+.claseDiv2 {
+    display: inline-block;
+    padding: 2em;
+    height: 80vh;
+    width: 65vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgba(0, 0, 0, 0.374);
-    width: 200px;
-    padding: 25px;
-    margin-left: 16%;
+    color: rgb(16, 195, 226);
+    font-size: 1.5em;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
-.estilo2 li{
-    display: inline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgba(0, 0, 0, 0.374);
-    width: 200px;
-    padding: 25px;
-    margin-left: 16%;
-}
-
-.columnaTexto {
-    column-fill: balance;
-    column-count: 3;
-    column-width: 200px;
-    text-align: center;
-    column-gap: 5em;
-    column-rule: 2px solid blue;
-    height: 50em;
-}
 
 a{
-    color: rgba(255, 241, 160);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: rgb(16, 195, 226);
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
 a:hover{
-    color: rgb(228, 203, 56);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: rgb(8, 134, 156);
+    text-shadow: -1px -1px 0 #5f5f5f, 1px -1px 0 #5f5f5f, -1px 1px 0 #5f5f5f, 1px 1px 0 #5f5f5f;
+}
+
+.imgTamañoDiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 0.3em solid rgb(16, 195, 226);
+    border-radius: 5%;
+}
+
+.imgPersonaje{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.nombreAv{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(200, 193, 12);
+    font-size: 1.7em;
+}
+
+.nombreAch{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(154, 22, 221);
+    font-size: 1.7em;
+}
+
+.nombreHer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(106, 235, 233);
+    font-size: 1.7em;
+}
+.nombreAgl{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(231, 198, 11);
+    font-size: 1.7em;
+}
+
+video{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 0.3em solid rgb(16, 195, 226);
+    border-radius: 5%;
+}
+
+table{
+    display: inline-block;
+}
+
+table, td{
+    font-size: 0.85em;
+    width: 18em;
+    border: 0.1em solid rgb(16, 195, 226);
+    border-collapse: collapse;
+}
+
+.imgTabla{
+    height: auto;
+    width: 60%;
+}
+
+.solicitudForm{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(16, 195, 226);
+    font-size: 1em;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
