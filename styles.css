@@ -146,3 +146,11 @@ table, td{
     text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
 }
 
+.imgDefensa{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 0.5em solid;
+    border-color: linear-gradient(170deg, rgb(10, 221, 140)35%,rgb(108, 248, 194) 70%, rgb(255, 255, 255)100%);
+    border-radius: 10%;
+}
